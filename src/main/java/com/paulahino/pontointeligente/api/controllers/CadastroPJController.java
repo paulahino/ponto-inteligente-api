@@ -1,4 +1,4 @@
-package com.paulahino.pontointeligente.controllers;
+package com.paulahino.pontointeligente.api.controllers;
 
 import java.security.NoSuchAlgorithmException;
 
