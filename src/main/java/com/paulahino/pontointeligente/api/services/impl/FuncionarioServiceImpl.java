@@ -34,6 +34,7 @@ public class FuncionarioServiceImpl implements FuncionarioService {
 		return Optional.ofNullable(this.funcionarioRepository.findByEmail(email));
 	}
 	
+	
 	public Optional<Funcionario> buscarPorId(Long id) {
 		log.info("Buscando funcionário pelo IDl {}", id);
 		return this.funcionarioRepository.findById(id);
